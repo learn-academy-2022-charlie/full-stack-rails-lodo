@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Blog.create(title:'How to Mess Up your Directory', content:'Today we got ahead of ourselves and forgot to drop sqlite3 database and the default testing suite and made a huge mess of everything, but we fixed it')
+Blog.create(title:'Cloning Directories into root on accident', content:'rm -rf <folder>')
