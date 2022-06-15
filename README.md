@@ -1,6 +1,5 @@
 Challenges
 As a developer, I have been commissioned to create an application where a user can see and create blog posts.
-
 As a developer, I can create a full-stack Rails application.
 As a developer, my blog post can have a title and content.
 As a developer, I can add new blog posts directly to my database.
