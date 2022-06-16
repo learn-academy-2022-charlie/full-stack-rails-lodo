@@ -8,8 +8,8 @@
     <br>
     <%= form.label :content %>
     <br>
-    <%= form.text_field :content %>
+    <%= form.text_area :content %>
     <br>
     <br>
-    <%= form.submit "Post Blog!" %>
+    <%= form.submit "Post Blog!", data: { 'turbo-confirm': 'Are you sure?' } %>
 <% end %>
