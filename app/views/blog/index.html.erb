@@ -1,10 +1,13 @@
 <ul>
-<h1> BLOG </h1>
+<h1> Elden Ring Blog </h1>
+<%= image_tag "er.jpeg", id: 'home-pic' %>
+<h2> Current Blogs Here: </h2>
     <% @blogs.each do |blog| %>
         <li>
             <%= link_to blog.title, blog_path(blog) %>
         </li>
     <% end%>
     <br>
-    <%= link_to 'Create Blog', new_blog_path %>    
+    <%= content_tag(:iframe, nil, src: "//www.youtube.com/embed/OT8if6DXOFQ", width: 560, height: 315, margin: 50, frameborder: 0) %>
+    <%= link_to 'Create Blog', new_blog_path %>
 </ul>

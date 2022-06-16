@@ -7,6 +7,12 @@ body {
     display: flex;
 }
 
+#home-pic {
+    height: 300px;
+    border-radius: 25px;
+}
+
+
 ul {
     list-style: none;
     align-items: center;
